@@ -3,103 +3,52 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hampers Spesial</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #fdf6f0;
-      color: #333;
-    }
-    header {
-      background: #ff8c94;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-    .hero {
-      padding: 60px 20px;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 2.5em;
-    }
-    .hero p {
-      font-size: 1.2em;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 12px 25px;
-      background: #ff8c94;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-    .products {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-      padding: 40px;
-    }
-    .card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      padding: 20px;
-      text-align: center;
-    }
-    .card img {
-      max-width: 100%;
-      border-radius: 10px;
-    }
-    .card h3 {
-      margin: 15px 0 10px;
-    }
-    footer {
-      background: #333;
-      color: white;
-      text-align: center;
-      padding: 20px;
-    }
-  </style>
+  <title>Sepatu Lari Keren</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-gray-100 text-gray-800">
 
-<header>
-  <h2>Hampers Cantik & Eksklusif</h2>
-</header>
+  <!-- Hero Section -->
+  <section class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <h1 class="text-4xl font-bold mb-4">Sepatu Lari Terbaik 2026</h1>
+        <p class="mb-6 text-lg">Ringan, nyaman, dan stylish. Cocok untuk semua aktivitas lari kamu.</p>
+        <button class="bg-black text-white px-6 py-3 rounded-xl">Beli Sekarang</button>
+      </div>
+      <div>
+        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff" alt="Sepatu Lari" class="rounded-2xl shadow-lg">
+      </div>
+    </div>
+  </section>
 
-<section class="hero">
-  <h1>Kirim Kebahagiaan dengan Hampers</h1>
-  <p>Cocok untuk ulang tahun, lebaran, atau hadiah spesial lainnya</p>
-  <a href="#produk" class="btn">Lihat Produk</a>
-</section>
+  <!-- Features -->
+  <section class="py-16">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-bold mb-10">Kenapa Pilih Sepatu Ini?</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="font-bold text-xl mb-2">Super Ringan</h3>
+          <p>Tidak membuat kaki cepat lelah saat lari jarak jauh.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="font-bold text-xl mb-2">Nyaman</h3>
+          <p>Sol empuk dan mengikuti bentuk kaki.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow">
+          <h3 class="font-bold text-xl mb-2">Desain Keren</h3>
+          <p>Tampil stylish saat olahraga maupun santai.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-<section id="produk" class="products">
-  <div class="card">
-    <img src="https://via.placeholder.com/300" alt="Hampers 1">
-    <h3>Hampers Premium</h3>
-    <p>Mulai dari Rp150.000</p>
-    <a href="#" class="btn">Pesan Sekarang</a>
-  </div>
-  <div class="card">
-    <img src="https://via.placeholder.com/300" alt="Hampers 2">
-    <h3>Hampers Lebaran</h3>
-    <p>Mulai dari Rp200.000</p>
-    <a href="#" class="btn">Pesan Sekarang</a>
-  </div>
-  <div class="card">
-    <img src="https://via.placeholder.com/300" alt="Hampers 3">
-    <h3>Hampers Ulang Tahun</h3>
-    <p>Mulai dari Rp180.000</p>
-    <a href="#" class="btn">Pesan Sekarang</a>
-  </div>
-</section>
-
-<footer>
-  <p>&copy; 2026 HampersKu. All rights reserved.</p>
-</footer>
+  <!-- CTA -->
+  <section class="bg-black text-white py-16 text-center">
+    <h2 class="text-3xl font-bold mb-4">Siap Lari Lebih Cepat?</h2>
+    <p class="mb-6">Dapatkan sepatu terbaikmu sekarang juga.</p>
+    <button class="bg-white text-black px-6 py-3 rounded-xl">Order Sekarang</button>
+  </section>
 
 </body>
 </html>
